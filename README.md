@@ -9,22 +9,22 @@ This is a custom Homebrew tap for @leoho0722's tools.
 brew tap leoho0722/tap
 
 # Install tools
-brew install sf-symbols-generator
+brew install sf-symbols
 ```
 
 ## Available Formulas
 
-### sf-symbols-generator
+### sf-symbols
 
 A Swift-based command-line utility that generates type-safe Swift enumerations for SF Symbols.
 
 ```bash
 # Install
-brew install sf-symbols-generator
+brew install sf-symbols
 
 # Usage
-sf-symbols-generator generate ~/Desktop --name MySymbols
-sf-symbols-generator version
+sf-symbols generate ~/Desktop --name MySymbols
+sf-symbols version
 ```
 
 ## Links
