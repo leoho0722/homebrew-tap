@@ -1,4 +1,4 @@
-class SfSymbolsGenerator < Formula
+class SfSymbolsGeneratorAT130 < Formula
   desc "Swift-based command-line utility that generates type-safe Swift enumerations for SF Symbols"
   homepage "https://github.com/leoho0722/SFSymbolsGenerator"
   version "1.3.0"
