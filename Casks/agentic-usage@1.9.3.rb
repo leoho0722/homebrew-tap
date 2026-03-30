@@ -1,6 +1,6 @@
-cask "agentic-usage" do
-  version "1.9.4"
-  sha256 "0718de2c6ecc37441aa37c15328889019ad8e4d9de4bf581a9f3095918be6de6"
+cask "agentic-usage@1.9.3" do
+  version "1.9.3"
+  sha256 "424559bfe7b0e5700101509ad65e656147c5b40664484fa8ce6306a00b94f933"
 
   url "https://github.com/leoho0722/agentic-coding-usage-app/releases/download/v#{version}/AgenticUsage-v#{version}.zip"
   name "AgenticUsage"
@@ -11,10 +11,6 @@ cask "agentic-usage" do
 
   app "AgenticUsage.app"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
 
   caveats <<~EOS
     #{token} is not code-signed. On first launch, right-click the app
