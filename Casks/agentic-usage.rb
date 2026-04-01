@@ -1,6 +1,6 @@
 cask "agentic-usage" do
-  version "1.9.7"
-  sha256 "2895124d7b75b8de07412d22807fcf2602e0f13f991a5bb08eaf44eaf0671fde"
+  version "1.9.8"
+  sha256 "5dc3af38058622f905e7e6f7ef44e2da4de0f2c538de8edadfa74544aa037997"
 
   url "https://github.com/leoho0722/agentic-coding-usage-app/releases/download/v#{version}/AgenticUsage-v#{version}.zip"
   name "AgenticUsage"
