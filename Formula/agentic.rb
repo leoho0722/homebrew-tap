@@ -1,9 +1,9 @@
 class Agentic < Formula
   desc "CLI tool to monitor AI coding assistant usage"
   homepage "https://github.com/leoho0722/agentic-coding-usage-app"
-  url "https://github.com/leoho0722/agentic-coding-usage-app/releases/download/v1.9.8/AgenticCLI-v1.9.8-arm64.zip"
-  version "1.9.8"
-  sha256 "f6f8f9883f21a4681b21cec03dbcfa082e8069cf9175a64a4298c6714fb89254"
+  url "https://github.com/leoho0722/agentic-coding-usage-app/releases/download/v1.9.9/AgenticCLI-v1.9.9-arm64.zip"
+  version "1.9.9"
+  sha256 "79eefeef9833c6b68eaf545ad27072c8258301acfc9d68f666ff35ab8d0db0ae"
   license "MIT"
 
   depends_on arch: :arm64
